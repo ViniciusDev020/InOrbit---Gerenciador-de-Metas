@@ -54,9 +54,6 @@ export async function createGoalCompletion({
     .returning()
   const goalCompletion = insertResult[0]
 
-  //   const result = await db.insert(goalCompletions).values({ goalId }).returning()
-  //   const goalCompletion = result[0]
-
   return {
     goalCompletion,
   }
